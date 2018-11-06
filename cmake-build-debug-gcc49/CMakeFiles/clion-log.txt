@@ -1,4 +1,0 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=/usr/local/Cellar/gcc@4.9/4.9.4_1/bin/gcc-4.9 -DCMAKE_CXX_COMPILER=/usr/local/Cellar/gcc@4.9/4.9.4_1/bin/g++-4.9 -G "CodeBlocks - Unix Makefiles" /Users/yaowenfeng/Documents/yaowenfeng_project/design_patterns
--- Configuring done
--- Generating done
--- Build files have been written to: /Users/yaowenfeng/Documents/yaowenfeng_project/design_patterns/cmake-build-debug-gcc49
