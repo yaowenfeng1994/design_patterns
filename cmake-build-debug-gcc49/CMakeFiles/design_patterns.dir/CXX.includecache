@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../strategy/strategy.cpp
+iostream
+-
+
+/Users/yaowenfeng/Documents/yaowenfeng_project/design_patterns/main.cpp
+iostream
+-
+strategy.cpp
+/Users/yaowenfeng/Documents/yaowenfeng_project/design_patterns/strategy.cpp
+
+/Users/yaowenfeng/Documents/yaowenfeng_project/design_patterns/strategy/strategy.cpp
+iostream
+-
+
