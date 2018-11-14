@@ -5,4 +5,4 @@ set(CMAKE_CXX_STANDARD 11)
 
 include_directories(strategy)
 
-add_executable(design_patterns main.cpp strategy/strategy.cpp)
+add_executable(design_patterns main.cpp strategy/strategy.cpp bridge/bridge.cpp)

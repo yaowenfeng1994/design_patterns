@@ -11,7 +11,12 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c1e436b-2c5b-4ef6-a5a9-faeca9d7083f" name="Default Changelist" comment="" />
+    <list default="true" id="1c1e436b-2c5b-4ef6-a5a9-faeca9d7083f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/bridge/bridge.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategy/strategy.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/strategy/strategy.cpp" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug-gcc49/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,30 +30,38 @@
     <session id="-1386513645">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.75" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="323" />
-          <entry key="txt" value="10" />
+          <entry key="cpp" value="431" />
+          <entry key="gitignore" value="10" />
+          <entry key="txt" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CMakeLists.txt" value="10" />
-          <entry key="ObjectiveC" value="323" />
+          <entry key="CMakeLists.txt" value="15" />
+          <entry key="ObjectiveC" value="431" />
+          <entry key="PLAIN_TEXT" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cpp" value="1" />
+          <entry key="cpp" value="2" />
+          <entry key="gitignore" value="1" />
+          <entry key="h" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="ObjectiveC" value="1" />
+          <entry key="ObjectiveC" value="3" />
+          <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.cidr.testingFrameworks.usages" />
@@ -56,12 +69,12 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+            <state relative-caret-position="105">
+              <caret line="7" column="79" selection-start-line="7" selection-start-column="79" selection-end-line="7" selection-end-column="79" />
             </state>
           </provider>
         </entry>
@@ -69,8 +82,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="90">
+              <caret line="6" column="14" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="14" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -78,11 +91,33 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/strategy/strategy.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
+            <state relative-caret-position="480">
+              <caret line="32" column="14" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bridge/bridge.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="597">
+              <caret line="106" column="18" lean-forward="true" selection-start-line="106" selection-start-column="18" selection-end-line="106" selection-end-column="18" />
+              <folding>
+                <element signature="e#839#1121#1" />
+                <element signature="e#1530#2068#1" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -95,9 +130,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/strategy/strategy.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/bridge/bridge.cpp" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -108,12 +145,14 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="498" />
+    <option name="x" value="355" />
     <option name="y" value="-1057" />
-    <option name="width" value="1245" />
-    <option name="height" value="1031" />
+    <option name="width" value="1259" />
+    <option name="height" value="1037" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -125,6 +164,16 @@
             <path>
               <item name="design_patterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="design_patterns" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="design_patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design_patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="bridge" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="design_patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design_patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="strategy" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -177,37 +226,40 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1541514223495</updated>
-      <workItem from="1541514224730" duration="4847000" />
+      <workItem from="1541514224730" duration="5117000" />
+      <workItem from="1541602625570" duration="688000" />
+      <workItem from="1542205152152" duration="174000" />
+      <workItem from="1542205512874" duration="6744000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4847000" />
+    <option name="totallyTimeSpent" value="12723000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="498" y="-1057" width="1245" height="1031" extended-state="0" />
+    <frame x="355" y="-1057" width="1259" height="1037" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20448878" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20810167" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="CMake" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" weight="0.32969433" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25436682" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.22503516" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32911393" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="CMake" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,17 +269,20 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/bridge/bridge.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        <state relative-caret-position="105">
+          <caret line="7" column="79" selection-start-line="7" selection-start-column="79" selection-end-line="7" selection-end-column="79" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="90">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="14" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
@@ -236,8 +291,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/strategy/strategy.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
+        <state relative-caret-position="480">
+          <caret line="32" column="14" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bridge/bridge.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="597">
+          <caret line="106" column="18" lean-forward="true" selection-start-line="106" selection-start-column="18" selection-end-line="106" selection-end-column="18" />
+          <folding>
+            <element signature="e#839#1121#1" />
+            <element signature="e#1530#2068#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
         </state>
       </provider>
     </entry>

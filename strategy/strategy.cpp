@@ -16,7 +16,7 @@ class CNTax : public TaxStrategy {
 
 public:
     int Calculate(int context) override {
-        return context+1;
+        return context + 1;
     }
 
     CNTax *NewStrategy() {
@@ -29,7 +29,7 @@ private:
     TaxStrategy *strategy;
 
 public:
-    SalesOrder(StrategyFactory *strategyFactory) {
+    SalesOrder(CNTax *strategyFactory) {
         this->strategy = strategyFactory->NewStrategy();
     }
 
